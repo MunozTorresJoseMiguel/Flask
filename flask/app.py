@@ -15,4 +15,8 @@ def hola_mundo1():
 if __name__ == "__main__":
     app.run(debug=True)
 #para ejecutar es python app.py y crea un servidor web para ejecutar paginas 
+#aun falta aprender a como poner las plantillas 
+#Werkzeug maneja las solicitudes y respuestas web 
+#jinja2 crea plantillas Html Dinamicas 
+#Concepto basico Cliente(navegador) servidor(Programa)
 
