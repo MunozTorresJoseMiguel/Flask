@@ -4,6 +4,9 @@ from flask import Flask
 app = Flask (__name__)
 #Esto nos crea nuestro servider
 
+@app.route("/imagen")
+def pofe():
+    return'''<img src="img/descarga.jpg" alt="julio pofe" hidden="200xp" width="300xp" '''
 
 @app.route("/")
 def hola_mundo():
